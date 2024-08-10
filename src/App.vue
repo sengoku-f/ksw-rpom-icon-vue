@@ -1,31 +1,30 @@
 <template>
   <div id="app">
-    <IconAdd :size="55" color="#40B883"/>
-    <IconAomMenuQxglColor :size="55" color="#40B883"/>
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <HeadItem />
+    <IconsItem />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import HeadItem from "./components/HeadItem.vue";
+import IconsItem from "./components/IconsItem.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld,
-  }
-}
+    HeadItem,
+    IconsItem,
+  },
+};
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+<style scoped>
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+body {
+  font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
 }
 </style>
