@@ -9,16 +9,12 @@
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-import IconAdd from './icons/add.js'
-import IconAomMenuQxglColor from './icons/aom-menu-QXGL-color.js'
-import "~/styles/icon.css";
+
 
 export default {
   name: 'App',
   components: {
     HelloWorld,
-    IconAdd,
-    IconAomMenuQxglColor,
   }
 }
 </script>
