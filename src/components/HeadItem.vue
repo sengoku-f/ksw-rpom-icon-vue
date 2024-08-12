@@ -18,7 +18,7 @@
         isThrottled: false,
         iconNumber: iconsData.length,
         version: packageData.version,
-        npmInstallCode: `npm i ksw-vue-icon@${packageData.version}`
+        npmInstallCode: `npm i ksw-rpom-icon-vue@${packageData.version}`
       };
     },
     methods: {
@@ -61,16 +61,16 @@
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative">
       <div class="relative z-10 flex items-center justify-between">
         <div class="flex items-center gap-4">
-          <img class="h-7" src="/klogo.svg" />
-          <span class="text-xl font-semibold">KSW Rpom Design</span>
+          <img class="h-7" src="/krpom.svg" />
+          <span class="text-xl font-semibold">Design</span>
         </div>
         <div class="flex justify-center gap-8 lg:justify-start">
           <a class="-mx-1.5 -my-1 flex items-center gap-2 rounded-lg px-1.5 py-1 text-[0.8125rem] font-semibold leading-6 text-slate-900 transition hover:bg-slate-900/[0.03]"
-            href="https://github.com/sengoku-f/KSW-vue-icon">
+            href="https://github.com/sengoku-f/ksw-rpom-icon-vue">
             <img class="size-6" src="/Github.svg" />
             Github</a>
           <a class="-mx-1.5 -my-1 flex items-center gap-2 rounded-lg px-1.5 py-1 text-[0.8125rem] font-semibold leading-6 text-slate-900 transition hover:bg-slate-900/[0.03]"
-            href="https://www.npmjs.com/package/ksw-vue-icon"><img class="size-6" src="/NPM.svg" />NPM Packages</a>
+            href="https://www.npmjs.com/package/ksw-rpom-icon-vue"><img class="size-6" src="/NPM.svg" />NPM Packages</a>
           <a class="-mx-1.5 -my-1 flex items-center gap-2 rounded-lg px-1.5 py-1 text-[0.8125rem] font-semibold leading-6 text-slate-900 transition hover:bg-slate-900/[0.03]"
             href="/"><img class="size-6" src="/Mastergo.svg" />Mastergo File</a>
         </div>
