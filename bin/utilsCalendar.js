@@ -5,4 +5,6 @@ try {
   const locale = "zh-cn";
   DD = time.getDate();
   MMM = time.toLocaleString(locale, { month: "short" }).toUpperCase();
-} catch {}
+} catch (error) {
+  console.error('Error occurred while parsing date:', error);
+}
