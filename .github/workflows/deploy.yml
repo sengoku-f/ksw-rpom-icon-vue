@@ -32,6 +32,7 @@ jobs:
           node-version: 20
       - name: Install dependencies and build
         run: |
+          rm -rf yarn.lock
           yarn install
           yarn compiler:icons
           yarn build
