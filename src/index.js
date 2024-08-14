@@ -1,6 +1,6 @@
 import * as Icons from "./map"; // 引入所有图标组件
 
-export const KswIcon = {
+export const KrpomIcon = {
   install(Vue) {
     // 遍历并注册所有图标组件
     Object.entries(Icons).forEach(([key, component]) => {
