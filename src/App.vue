@@ -2,18 +2,21 @@
   <div id="app">
     <HeadItem />
     <IconsItem />
+    <InstallItem />
   </div>
 </template>
 
 <script>
 import HeadItem from "./components/HeadItem.vue";
 import IconsItem from "./components/IconsItem.vue";
+import InstallItem from "./components/InstallItem.vue";
 
 export default {
   name: "App",
   components: {
     HeadItem,
     IconsItem,
+    InstallItem,
   },
 };
 </script>

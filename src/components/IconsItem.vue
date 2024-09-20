@@ -1,7 +1,5 @@
 <script>
 import Vue from "vue";
-import "~/styles/icon.css";
-import * as Icons from "@/map.js"; // 引入所有图标组件
 import iconsData from "~/icons.json"; // 导入 JSON 数据
 import IconSearch from "./icon/IconSearch.vue";
 import IconArrowDown from "./icon/IconArrowDown.vue";
@@ -19,11 +17,10 @@ export default {
   },
   data() {
     return {
-      Icons,
       showCopiedMessage: false,
       opacityValue: 0,
       isThrottled: false,
-      iconNames: Object.keys(Icons),
+      iconNames: iconsData.map(icon => icon.componentName),
       sortBy: "date",
       showColorIcons: false,
       showAnimationIcons: false,
@@ -279,7 +276,7 @@ export default {
           :title="iconComponentName"
           @click="copyName(iconComponentName)"
         >
-          <component :is="Icons[iconComponentName]" />
+          <component :is="iconComponentName" />
           <div
             class="text-xs antialiased text-center truncate text-slate-500 text-wrap w-full h-4 group-hover:overflow-visible group-hover:break-words select-none"
           >
