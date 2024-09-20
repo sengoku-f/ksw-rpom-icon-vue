@@ -1,6 +1,6 @@
 {
   "name": "ksw-rpom-icon-vue",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "license": "ISC",
   "description": "KSW RPOM ICON",
   "main": "packages/cjs/index.js",
@@ -14,9 +14,9 @@
     "packages/*/*/*.d.ts"
   ],
   "scripts": {
-    "compiler:icons": "rm -rf src/icons && node bin/build.mjs",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "build:icons": "rm -rf src/icons && node bin/build.mjs",
     "build:code": "rollup -c",
     "lint": "vue-cli-service lint",
     "clean-publish": "clean-publish"

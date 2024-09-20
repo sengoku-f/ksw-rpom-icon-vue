@@ -62,14 +62,14 @@ export default {
         sortedIcons.sort((a, b) => a.name.localeCompare(b.name));
       }
       if (this.showColorIcons) {
-        sortedIcons = sortedIcons.filter((icon) => icon.name.includes("Color"));
+        sortedIcons = sortedIcons.filter((icon) => icon.componentName.includes("Color"));
       }
       if (this.showAnimationIcons) {
         sortedIcons = sortedIcons.filter((icon) =>
-          icon.name.includes("Animation")
+          icon.componentName.includes("Animation")
         );
       }
-      this.iconNames = sortedIcons.map((icon) => icon.name);
+      this.iconNames = sortedIcons.map((icon) => icon.componentName);
     },
     handleSortChange(event) {
       this.sortBy = event.target.value;

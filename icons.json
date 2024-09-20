@@ -1,10 +1,73 @@
 [
   {
-    "name": "IconAdd",
-    "modifiedTime": "2024-06-20T12:39:37.622Z"
+    "id": 0,
+    "name": "add",
+    "componentName": "IconAdd",
+    "title": "添加",
+    "category": "Character",
+    "categoryCN": "符号标识",
+    "author": "KRPOM",
+    "modifiedTime": "2024-06-20T12:39:37.622Z",
+    "tag": [
+      "新建",
+      "增加",
+      "创建"
+    ]
   },
   {
-    "name": "IconCalendarColor",
-    "modifiedTime": "2024-08-12T07:00:10.017Z"
+    "id": 1,
+    "name": "calendar-color",
+    "componentName": "IconCalendarColor",
+    "title": "defaultTitle",
+    "category": "Default",
+    "categoryCN": "默认",
+    "author": "unknown",
+    "modifiedTime": "2024-08-12T07:00:10.017Z",
+    "tag": []
+  },
+  {
+    "id": 2,
+    "name": "SZYGGL",
+    "componentName": "IconSZYGGL",
+    "title": "数字员工管理",
+    "category": "Menu",
+    "categoryCN": "菜单",
+    "author": "KRPOM",
+    "modifiedTime": "2024-09-19T09:55:02.333Z",
+    "tag": [
+      "数字员工",
+      "管理",
+      "上海银行"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "SZYGZY",
+    "componentName": "IconSZYGZY",
+    "title": "数字员工资源",
+    "category": "Menu",
+    "categoryCN": "菜单",
+    "author": "KRPOM",
+    "modifiedTime": "2024-09-19T09:55:02.343Z",
+    "tag": [
+      "数字员工",
+      "资源",
+      "上海银行"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "WDSZYG",
+    "componentName": "IconWDSZYG",
+    "title": "我的数字员工",
+    "category": "Menu",
+    "categoryCN": "菜单",
+    "author": "KRPOM",
+    "modifiedTime": "2024-09-19T09:55:02.348Z",
+    "tag": [
+      "数字员工",
+      "资源",
+      "上海银行"
+    ]
   }
 ]

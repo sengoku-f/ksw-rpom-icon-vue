@@ -1,0 +1,34 @@
+[
+  {
+    "name": " add",
+    "title": "添加",
+    "category": "Character",
+    "categoryCN": "符号标识",
+    "author": "KRPOM",
+    "tag": ["新建", "增加", "创建"]
+  },
+  {
+    "name": "SZYGGL",
+    "title": "数字员工管理",
+    "category": "Menu",
+    "categoryCN": "菜单",
+    "author": "KRPOM",
+    "tag": ["数字员工", "管理", "上海银行"]
+  },
+  {
+    "name": "SZYGZY",
+    "title": "数字员工资源",
+    "category": "Menu",
+    "categoryCN": "菜单",
+    "author": "KRPOM",
+    "tag": ["数字员工", "资源", "上海银行"]
+  },
+  {
+    "name": "WDSZYG",
+    "title": "我的数字员工",
+    "category": "Menu",
+    "categoryCN": "菜单",
+    "author": "KRPOM",
+    "tag": ["数字员工", "资源", "上海银行"]
+  }
+]

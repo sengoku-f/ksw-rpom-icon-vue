@@ -34,9 +34,9 @@ jobs:
         run: |
           rm -rf yarn.lock
           yarn install
-          yarn compiler:icons
-          yarn build
+          yarn build:icons
           yarn build:code
+          yarn build
 
       # 检查版本
       - name: Check version changes

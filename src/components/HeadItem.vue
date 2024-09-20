@@ -16,7 +16,7 @@
         showCopiedMessage: false,
         opacityValue: 0,
         isThrottled: false,
-        iconNumber: iconsData.length,
+        iconNumber: iconsData.at(-1).id + 1,
         version: packageData.version,
         npmInstallCode: `npm i ksw-rpom-icon-vue@${packageData.version}`
       };
@@ -62,7 +62,7 @@
       <div class="relative z-10 flex items-center justify-between">
         <div class="flex items-center gap-4">
           <img class="h-7" src="@/assets/krpom.svg" />
-          <span class="text-xl font-semibold">Design</span>
+          <span class="text-3xl font-semibold italic">Icon</span>
         </div>
         <div class="flex justify-center gap-8 lg:justify-start">
           <a class="-mx-1.5 -my-1 flex items-center gap-2 rounded-lg px-1.5 py-1 text-[0.8125rem] font-semibold leading-6 text-slate-900 transition hover:bg-slate-900/[0.03]"
