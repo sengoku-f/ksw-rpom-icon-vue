@@ -45,6 +45,10 @@ export function IconWrapper(name, spin, render) {
         "span",
         {
           class: cls.join(" "),
+          // 传递事件监听器
+          on: this.$listeners,
+          // 传递未声明为 props 的属性
+          attrs: this.$attrs,
         },
         [render(h, this)]
       );
