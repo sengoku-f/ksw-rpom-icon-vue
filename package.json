@@ -5,6 +5,7 @@
   "description": "KSW RPOM ICON",
   "main": "packages/cjs/index.js",
   "module": "packages/es/index.js",
+  "types": "packages/es/index.d.ts",
   "files": [
     "styles",
     "icons.json",
@@ -25,9 +26,8 @@
     "vue": "^2.6.14"
   },
   "devDependencies": {
+    "@babel/core": "^7.12.16",
     "@babel/eslint-parser": "^7.12.16",
-    "@rollup/plugin-babel": "^6.0.4",
-    "@rollup/plugin-commonjs": "^26.0.1",
     "@rollup/plugin-node-resolve": "^15.2.3",
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-plugin-eslint": "~5.0.0",
@@ -39,6 +39,7 @@
     "core-js": "^3.8.3",
     "eslint": "^7.32.0",
     "eslint-plugin-vue": "^8.0.3",
+    "glob": "^11.0.0",
     "postcss": "^8.4.41",
     "prettier": "^3.3.3",
     "rollup": "^4.20.0",

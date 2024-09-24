@@ -1,6 +1,5 @@
 
 import { nodeResolve } from "@rollup/plugin-node-resolve";
-import babel from "@rollup/plugin-babel";
 import del from 'rollup-plugin-delete'
 import dts from "rollup-plugin-dts";
 import { terser } from "rollup-plugin-terser";
@@ -61,10 +60,6 @@ export default [
     plugins: [
       del({ targets: 'packages/*' }),
       nodeResolve(),
-      babel({
-        babelHelpers: "runtime",
-        exclude: "node_modules/**",
-      }),
       terser(),
     ],
     output: [
