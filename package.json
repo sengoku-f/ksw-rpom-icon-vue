@@ -1,6 +1,6 @@
 {
   "name": "ksw-rpom-icon-vue",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "license": "ISC",
   "description": "KSW RPOM ICON",
   "main": "packages/cjs/index.js",
